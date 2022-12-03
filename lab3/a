@@ -1,0 +1,13 @@
+def oddities(x, n1, n2, n3):
+    for values in (n1, n2, n3):
+        if (values * x) % 2 == 0:
+            print(str(values) + " is even")
+        elif values == 0:
+            print(str(values) + " is even")
+        else:
+            print(str(values) + " is odd")
+x = int(input())
+n1 = int(input())
+n2 = int(input())
+n3 = int(input())
+oddities(x, n1, n2, n3)

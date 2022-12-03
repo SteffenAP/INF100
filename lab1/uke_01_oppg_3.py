@@ -1,0 +1,7 @@
+print("Hva er ditt navn?")
+myName = input()
+print("Hva er din adresse?")
+myAddress = input()
+print("Hva er ditt postnummer og poststed?")
+myCity = input()
+print(max(len(myName),len(myAddress),len(myCity)))
